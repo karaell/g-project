@@ -15,7 +15,7 @@ UI.BTN.addEventListener('click', function () {
   
   let isNameEntered = UI.INPUT.value !== '';
   if (!isNameEntered) {
-    alert ("Введите имя");
+    alert ("Enter your name...");
     return;
   }
 
